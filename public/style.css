@@ -1,0 +1,32 @@
+
+body {
+    background: #f3f5f9;
+    color: #202938;
+    font-family: Arial, sans-serif;
+}
+
+.todo-card {
+    max-width: 750px;
+    background: white;
+    border-radius: 18px;
+    padding: 32px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+}
+
+.todo-card h1 {
+    font-weight: 750;
+}
+
+.todo-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #edf0f4;
+}
+
+.todo-item:last-child {
+    border-bottom: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #8992a0;
+}
