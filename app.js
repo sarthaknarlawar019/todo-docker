@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 const dbConfig = {
-    host: process.env.DB_HOSnet T || "localhost",
+    host: process.env.DB_HOST || "localhost",
     user: process.env.DB_USER || "todo_user",
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME || "todo_db"
